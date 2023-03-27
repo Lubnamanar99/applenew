@@ -1,0 +1,54 @@
+/* if the viewport is equal to 375px or less than that */ 
+@media only screen and (max-width: 375px){
+.navbar  
+{
+    padding: 2%;
+    margin: 0%;
+}
+.footercopyright .links{
+    margin-bottom: 0px;
+    font-size: x-small;
+    
+}
+.footer ol{
+    font-size: x-small;
+}
+.footer{
+    padding: 3px;
+}
+.footer .row{
+    font-size: x-small;
+    padding: 0px;
+}
+
+
+}
+@media(max-width: 767px){
+    .footer__links--column{
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer__links--column{
+      width: 100%;
+  }
+  }
+  @media(max-width: 767px){
+    .footermore .footercopyright {
+      width: 50%;
+      margin-bottom: 30px;
+  }
+  }
+  @media(max-width: 574px){
+    .footermore .footercopyright{
+      width: 100%;
+      
+  }
+  }
+  
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
